@@ -12,3 +12,9 @@ export const SingleTransactionElement = ({ type, amount, currency }) => {
     </TableRow>
     )
 }
+
+SingleTransactionElement.propTypes = {
+    type: PropTypes.string.isRequired,
+    amount: PropTypes.string.isRequired,
+    currency: PropTypes.string.isRequired
+}

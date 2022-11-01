@@ -2,11 +2,6 @@ import styled from 'styled-components'
 
 
 
-{/* <li class="item">
-  <span class="status"></span>
-  <img class="avatar" src="" alt="User avatar" width="48" />
-  <p class="name"></p>
-</li> */}
 
 
 export const ListItemWrapper = styled.li`
@@ -44,7 +39,9 @@ background-color:${(props) => {
         case true:
             return 'green';
         case false:
-            return 'red'
+            return 'red';
+        default:
+            return 'grey';
     }
 }};
 
