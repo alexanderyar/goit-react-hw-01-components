@@ -1,0 +1,20 @@
+.statistics {
+    text-align: center;
+
+
+    background-color:blue;
+    color: aliceblue;
+}
+
+.statlist {
+    display: flex;
+}
+
+.title {
+    padding-top: 10px;
+
+    text-align: center;
+
+    font-size: large;
+    font-weight: 700;
+}
