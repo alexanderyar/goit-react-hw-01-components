@@ -1,15 +1,15 @@
 
 import PropTypes from 'prop-types'
 
-import { TableRow, TableItem } from './SingleTransactionElement.styled'
+import { Box } from 'components/Box'
 
 export const SingleTransactionElement = ({ type, amount, currency }) => {
     return (
-        <TableRow>
-      <TableItem>{type}</TableItem>
-      <TableItem>{amount}</TableItem>
-      <TableItem>{currency}</TableItem>
-    </TableRow>
+        <Box bg="bg" color="bg" as="tr" >
+      <Box bg="tableBg" as="td">{type}</Box >
+      <Box bg="tableBg" as="td">{amount}</Box >
+      <Box bg="tableBg" as="td">{currency}</Box >
+    </Box>
     )
 }
 
